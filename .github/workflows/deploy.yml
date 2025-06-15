@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "marioparra-frontsim6-64"
+          project: "marioparra-frontsim6-12"
           entrypoint: "main.ts"
           root: "."
           
